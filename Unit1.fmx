@@ -1,0 +1,63 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 376
+  ClientWidth = 677
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Top
+    Size.Width = 677.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object Button1: TButton
+      Position.X = 32.000000000000000000
+      Position.Y = 56.000000000000000000
+      TabOrder = 0
+      Text = 'Execute'
+      OnClick = Button1Click
+    end
+  end
+  object EditParamspattern: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 5
+    Position.X = 136.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 129.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    object LabelParamspattern: TLabel
+      Position.Y = -16.000000000000000000
+      TextSettings.WordWrap = False
+      Text = 'Params.pattern'
+    end
+  end
+  object Label1: TLabel
+    Align = Top
+    AutoSize = True
+    Position.Y = 120.000000000000000000
+    Size.Width = 677.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label2: TLabel
+    Align = Bottom
+    AutoSize = True
+    Position.Y = 360.000000000000000000
+    Size.Width = 677.000000000000000000
+    Size.Height = 16.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Label2'
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+  end
+end
